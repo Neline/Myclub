@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#79c5ff"
+        tools:context=".PlayerActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+                android:id="@+id/text_view_id"
+                android:textFontWeight="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Ajouter une équipe" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Nom" />
+
+        <NumberPicker
+                android:id="@+id/np"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:solidColor="#004f8c"/>
+
+
+        <EditText
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Catégorie" />
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="267dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="#004f8c"
+                android:text="Ajouter"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
