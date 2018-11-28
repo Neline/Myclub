@@ -18,6 +18,4 @@ class Equipes {
         this.categ = categorie
         this.div = division
     }
-
-
 }
