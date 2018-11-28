@@ -7,5 +7,11 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <string name="fragment_accueil">(ici apparaîtra le contenu ACCUEIL)</string>
+    <string name="fragment_accueil_titre">MyCLUB</string>
+    <string name="fragment_accueil_derniermatch">Résultat du dernier match</string>
+    <string name="fragment_accueil_match2">Match précédent</string>
     <string name="fragment_equipe">(ici apparaîtra la description de l\'équipe)</string>
+    <string name="pref_sound">Prefs Sound</string>
+    <string name="label_sound">Label Sound</string>
 </resources>
